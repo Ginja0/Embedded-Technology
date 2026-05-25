@@ -1,10 +1,25 @@
-# Embedded Technology
-Emerging Technologies
+# Embedded Thermostat - TI CC3220S
 
-This project is an embedded project that simulates a thermostat. This is using a TI SimpleLink CC3220S.
-What I did well was work the problem out properly.
-I could have improved on commenting a bit more. 
-The skills learned in this project I can use in others is problem solving. There was a lot of problem solving in this project and real-world application. 
-Tools that I learned when working with this is working with embedded technologies and a basic understanding of different functions that are used.
-I tried to make the code simple to understand. 
+A thermostat simulation built for the Texas Instruments 
+SimpleLink CC3220S LaunchPad using embedded C programming.
 
+## Overview
+Simulates real-world thermostat behavior on bare-metal 
+hardware using GPIO interrupts and hardware timers on 
+the TI CC3220S microcontroller.
+
+## Features
+- GPIO interrupt-driven input handling
+- Hardware timer integration
+- Temperature state management (heat/cool)
+- Low-level peripheral control without an OS (no-RTOS)
+
+## Technologies
+- Embedded C
+- TI SimpleLink CC3220S
+- GPIO Interrupts
+- No-RTOS (bare metal)
+- Code Composer Studio (CCS)
+
+## Hardware
+- Texas Instruments CC3220S LaunchXL development board
